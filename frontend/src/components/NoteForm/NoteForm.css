@@ -1,0 +1,63 @@
+/* Wrapper for the form */
+.note-form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Input fields styling */
+  .note-form input,
+  .note-form textarea,
+  .note-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 5px 0;
+    transition: border 0.3s ease;
+  }
+  
+  /* Focus effect on input fields */
+  .note-form input:focus,
+  .note-form textarea:focus,
+  .note-form select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Textarea specific styling */
+  .note-form textarea {
+    min-height: 120px;
+    resize: vertical;
+  }
+  
+  /* Button styling */
+  .note-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  .note-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Button: Disabled */
+  .note-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

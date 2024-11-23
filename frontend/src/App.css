@@ -1,0 +1,113 @@
+/* App container styles */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  background-color: #fafafa;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Search bar styles */
+.search-bar {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.search-bar button:hover {
+  background-color: #45a049;
+}
+
+/* Note form styles */
+.note-form {
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.note-form input,
+.note-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.note-form button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.note-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Note list styles */
+.note-list {
+  width: 100%;
+  max-width: 600px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.note-item {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.note-item h3 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.note-item p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.note-item button {
+  background-color: #f44336;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.note-item button:hover {
+  background-color: #d32f2f;
+}
